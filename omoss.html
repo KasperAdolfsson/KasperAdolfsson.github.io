@@ -1,0 +1,62 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+<link rel="icon" type="image/png" href="bilder/npc.png">
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>gametop</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+<nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+             <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><img src="bilder/npc.png" id="menybild"></a>
+                <a class="navbar-brand" href="index.html">Gametop</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="">Regler</a></li>
+                    <li><a href="owner.html">Info</a></li>
+                    <li><a href="#bild2">Om oss</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="caption">
+    <span class="border">Om oss</span>
+</div>
+       <div class="parallax" id="bild1"></div>
+       <div class="scroll-box">
+    <p id="parall">info om servern</p>
+</div>
+
+
+
+<div class="parallax" id="bild2"></div>
+<<div class="whitebox">
+    <center><h1>Info om servern</h1></center>
+  <center><h5>GameTop var en server jag skapade för mig och mina kompisar</h5></center>
+  <center><h5> Dem var menad som e leka runt server</h5></center>
+  <center><h5>men vi tyckte det var tråkigt med så nåra spelare</h5></center>
+  <center><h5> så vi la upp den för offentligt och den är nu en</h5></center>
+  <center><h5>Enda stor server för alla och jah gjorde denna sidan till servern</h5></center>
+   
+
